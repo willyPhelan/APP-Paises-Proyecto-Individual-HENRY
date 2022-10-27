@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Api Paises</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'>
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/cutomSelect.css">
+    </head>
+    <body>
+
+        <nav>
+         <nav class="nav-bar">
+           <div class='container nav-bar-content'>
+              <h1>Where in the World?</h1>
+              <button class="btn-dark-mode">
+                <i class="fa-solid fa-moon"></i>
+                 Dark Mode 
+              </button>
+            </div>
+          </nav>
+        </nav>
+
+    <header class="container filter-content my-2">
+
+        <form class="form-search" id="formulario">
+         
+          <input type="text" placeholder="Search Country" id="input-formulario"/>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          
+         
+        </form>
+      <div class="custom-select">
+          <select>
+            <option value=""> Search by region </option>
+            <option value="Africa"> Africa </option>
+            <option value="Americas"> America </option>
+            <option value="Asia"> Asia </option>
+            <option value="Europe"> Europe </option>
+            <option value="Oceania"> Oceania </option>
+          </select>       
+      </div>
+    </header>
+
+    <main class="container grid" id="banderas">
+     </main>
+<script src="/js/dark-mode.js"></script>
+
+<script src="/js/App.js"></script>
+<script src="/js/customSelect.js"></script>
+<script src="/js/formulario.js"></script>
+
+</body>
+</html>
